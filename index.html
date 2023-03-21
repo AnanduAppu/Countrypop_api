@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: rgb(157, 64, 243);">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1" style="padding-left: 38%;font-size: 2em;">To Know Your Country</span>
+        </div>
+    </nav>
+    <form action="/" class="searchbox">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Country</h3>
+                    <select class="countryId text-dark" onchange="fetchdata()">
+                        <option>Select Country</option>
+
+                    </select>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container pt-1">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+
+                            Country Flag:- <span id="flag"><img id="flagim" src="" width="10%"></span>
+
+                        </div>
+                        <div class="col-6">
+
+                            Country Name:- <span id="CountName"> </span>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                            Currency Name:- <span id="CurrencyName"></span>
+
+                        </div>
+                        <div class="col-6">
+                            Currency Symbol:- <span id="CurrencySymbols"></span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                            Population:- <span id="Population"></span>
+
+                        </div>
+                        <div class="col-6">
+                            Capital:- <span id="capital"></span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+
+                            Language:- <span id="language"></span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

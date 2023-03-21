@@ -1,0 +1,19 @@
+.searchbox{
+    background-color:#e6e6e6;
+    padding: 3em 2.5em;
+    width: 80vw;
+    max-width: 37.5em;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+   border-radius: 0.62em;
+   box-shadow: 0 1.2em 1.8em rgb(8,21,65,0.25);
+}
+.container-fluid{
+    padding-top: .5%;
+    outline: black;
+    border-radius: 0.22em;
+    box-shadow: 0 1.2em 1.8em rgb(8,21,65,0.10);
+    
+}
